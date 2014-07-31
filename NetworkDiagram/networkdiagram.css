@@ -1,0 +1,68 @@
+.qv-object-qs-networkdiagram div.qv-object-content-container {
+
+}
+
+
+.qv-object-qs-networkdiagram .link {
+	stroke: #D4D4D4;
+	stroke-width: 2;
+}
+
+.qv-object-qs-networkdiagram .link.active {
+	stroke:blue;
+}
+
+.qv-object-qs-networkdiagram .link.inactive {
+	stroke-width:1;
+	stroke:#DEDEDE;
+}
+
+.qv-object-qs-networkdiagram .link.neighbor {
+	stroke:blue;
+	stroke-dasharray:5,5;
+}
+
+.qv-object-qs-networkdiagram .node {
+	stroke: grey;
+	fill: #92C5DE;
+}
+
+.qv-object-qs-networkdiagram .node.active {
+	stroke: blue;
+	fill: blue;
+}
+
+.qv-object-qs-networkdiagram .node.neighbor {
+	stroke:blue;
+	stroke-width:2;
+}
+
+.qv-object-qs-networkdiagram .node.neighbor2 {
+	stroke-width:2;
+	stroke-dasharray:5,5;
+	stroke:blue;
+	fill:#D1E5F0;
+}
+
+.qv-object-qs-networkdiagram .node.inactive {
+	stroke:#DEDEDE;
+	fill:#F5F5F5;
+}
+
+.qv-object-qs-networkdiagram div.tooltip {
+	position: fixed; 
+	text-align: left;
+	width: auto;
+	height: auto;
+	padding-left: 4px;
+	padding-right:4px;
+	padding-top:2px;
+	padding-bottom:2px;
+	font: 12px sans-serif; 
+	background: white; 
+	border-width: 1px;
+	border-style: solid;
+	pointer-events: none;
+	border-color: rgb(230,230,230); 
+	box-shadow: 0px 3px 5px #F0F0F0;
+}

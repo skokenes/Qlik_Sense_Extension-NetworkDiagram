@@ -1,0 +1,9 @@
+{
+	"name" : "Network Diagram",
+	"description" : "Network Diagram Extension",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "1.0",
+	"preview" : "table",
+	"author": "Speros Kokenes"
+}
