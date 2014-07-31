@@ -8,5 +8,5 @@ Hovering over a node will highlight all of the nodes direct neighbors in solid b
 
 An example qvf file with the extension implemented is provided in the examples folder.
 
-![Network Diagram]()
+![Network Diagram](https://raw.githubusercontent.com/skokenes/Qlik_Sense_Extension-NetworkDiagram/master/NetworkDiagram/Screenshot.png)
 
